@@ -27,8 +27,8 @@ console.log(testGreeting); // printing the output value of the function.
  * These two variables will be used to invoke the functions #2 - #5.
 */ 
 
-var string = "greetings"; 
-var string =
+var bango1 = 11; 
+var bango2 = 12;
 
 /*
  * #2
@@ -45,7 +45,12 @@ var string =
  * Console.log `sum` to test your code.
 */
 
+function add(num1,num2) {
+	return num1 + num2;
+}
 
+var sum = add(bango1, bango2);
+console.log(sum)
 
 /*
  * #3
@@ -61,7 +66,12 @@ var string =
  * Console.log `difference` to test your code.
 */ 
 
+function subtract(num1, num2) {
+	return num1 - num2;
+}
 
+var difference = subtract(bango1, bango2) 
+console.log(difference)
 
 /*
  * #4
@@ -77,6 +87,12 @@ var string =
  * Console.log `product` to test your code.
 */
 
+function multiply(num1, num2) {
+	return num1 * num2;
+}
+
+var product = multiply(bango1, bango2)
+console.log(product) 
 
 
 /*
@@ -93,6 +109,12 @@ var string =
  * Console.log `quotient` to test your code.
 */
 
+function divide(num1, num2) {
+	return num1 - num2;
+}
+
+var quotient = divide(bango1, bango2) 
+console.log(quotient)
 
 
 /*
@@ -107,7 +129,11 @@ var string =
  * Console.log your result.
 */
 
-
+function checksum(x) {
+	return "Mariah Carey has been married " + x + " amount of times";
+}
+var sum=checksum(69);
+console.log(sum)
 
 /*
  * #7
@@ -121,6 +147,11 @@ var string =
  * Console.log your results.
 */ 
 
+function checkDifference(x) {
+	return "Last night I dreamt that I ate " + x + " Taco Bell soft tacos";
+}	
+var difference=checkDifference(100);
+console.log(difference);
 
 
 /*
@@ -134,7 +165,10 @@ var string =
  * Console.log your result.  
 */
 
-
+function checkProduct() {
+	return sum*product; 
+}
+console.log(checkProduct);
 
 /*
  * #9
