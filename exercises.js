@@ -132,8 +132,8 @@ console.log(quotient)
 function checksum(x) {
 	return "Mariah Carey has been married " + x + " amount of times";
 }
-var sum=checksum(69);
-console.log(sum)
+var scheck = checksum(69);
+console.log(scheck)
 
 /*
  * #7
@@ -168,7 +168,8 @@ console.log(difference);
 function checkProduct() {
 	return sum*product; 
 }
-console.log(checkProduct);
+var check = checkProduct();
+console.log(check);
 
 /*
  * #9
@@ -181,7 +182,11 @@ console.log(checkProduct);
  * Console.log your result.  
 */
 
-
+function checkQuotient() {
+	return product*quotient;
+}
+var qcheck=checkQuotient();
+console.log(qcheck);
 
 /*
  * #10
@@ -202,8 +207,15 @@ console.log(checkProduct);
  * This function will add the first two parameters together. Then with the sum of that operation, subtract it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
  * Console.log your result.
 */ 
+var bango5 = 10;
+var bango4 = 9;
+var bango3 =8;
 
-
+function addThenSubtract(num1, num2, num3) {
+	return num1+num2-num3; 
+}
+var addThenSubtract= addThenSubtract(bango5, bango4, bango3);
+console.log(addThenSubtract);
 
 /*
  * #11
@@ -219,7 +231,11 @@ console.log(checkProduct);
  * Console.log your result.
 */ 
 
-
+function multiplyThenDivide(num1, num2, num3) {
+	return num1*num2/num3;
+}
+var multiplyThenDivide=multiplyThenDivide(bango5, bango4, bango3);
+console.log(multiplyThenDivide);
 
 /*
  * #12
@@ -233,8 +249,11 @@ console.log(checkProduct);
  *  This function `returns` back a string which represents someone's full name. Invoke this function by passing in your first  and last name into the function. Store the return value into a variable named `myFullName` and console.log this variable to show your result.
 */
 
-
-
+function createfullname(firstName, lastName) {
+	return firstName + " " + lastName;
+}
+var myFullName= "Timoteo Sumalinog"
+console.log(myFullName);
 /*
  * #13 
  * Function - eatFood
