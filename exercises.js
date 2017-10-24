@@ -268,7 +268,11 @@ console.log(myFullName);
  * Console.log your result.
  */
 
-
+function eatFood(firstName, lastName, food) {
+	return firstName + " " + lastName + food;
+}
+var createFullName = "Timoteo Sumalinog ate a pizza";
+console.log(createFullName)
 
 /************** ENGAGE HYPERDRIVE **************/
 /* No more training wheels! For the exercises #14-18, use the experience you've
@@ -283,6 +287,11 @@ console.log(myFullName);
  * Console.log your result. 
 */
 
+/*function shoeSize(inches, centimeters){
+	return 10;
+}
+var convert = inConverter(10);
+console.log(inConverter);*/
 
 
 /*
