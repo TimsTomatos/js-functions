@@ -50,7 +50,7 @@ function add(num1,num2) {
 }
 
 var sum = add(bango1, bango2);
-console.log(sum)
+console.log(sum);
 
 /*
  * #3
@@ -70,8 +70,8 @@ function subtract(num1, num2) {
 	return num1 - num2;
 }
 
-var difference = subtract(bango1, bango2) 
-console.log(difference)
+var difference = subtract(bango1, bango2); 
+console.log(difference);
 
 /*
  * #4
@@ -91,8 +91,8 @@ function multiply(num1, num2) {
 	return num1 * num2;
 }
 
-var product = multiply(bango1, bango2)
-console.log(product) 
+var product = multiply(bango1, bango2);
+console.log(product); 
 
 
 /*
@@ -110,11 +110,11 @@ console.log(product)
 */
 
 function divide(num1, num2) {
-	return num1 - num2;
+	return num1 / num2;
 }
 
-var quotient = divide(bango1, bango2) 
-console.log(quotient)
+var quotient = divide(bango1, bango2); 
+console.log(quotient);
 
 
 /*
@@ -132,7 +132,7 @@ console.log(quotient)
 function checksum(x) {
 	return "Mariah Carey has been married " + x + " amount of times";
 }
-var scheck = checksum(69);
+var scheck = checksum(sum);
 console.log(scheck)
 
 /*
@@ -150,7 +150,7 @@ console.log(scheck)
 function checkDifference(x) {
 	return "Last night I dreamt that I ate " + x + " Taco Bell soft tacos";
 }	
-var difference=checkDifference(100);
+var difference=checkDifference(difference);
 console.log(difference);
 
 
@@ -209,7 +209,7 @@ console.log(qcheck);
 */ 
 var bango5 = 10;
 var bango4 = 9;
-var bango3 =8;
+var bango3 = 8;
 
 function addThenSubtract(num1, num2, num3) {
 	return num1+num2-num3; 
@@ -252,7 +252,7 @@ console.log(multiplyThenDivide);
 function createfullname(firstName, lastName) {
 	return firstName + " " + lastName;
 }
-var myFullName= "Timoteo Sumalinog"
+var myFullName= "Timoteo Sumalinog";
 console.log(myFullName);
 /*
  * #13 
@@ -304,7 +304,10 @@ console.log(inConverter);*/
  * Example output: "BELIEVE YOU CAN AND YOU'RE HALFWAY THERE."
 */
  
-
+function allCaps(str) {
+	return str.toUpperCase();
+}
+console.log(allCaps("Turn this sentence into all caps!"))
 
 /*
  * #16
