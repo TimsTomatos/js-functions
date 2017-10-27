@@ -293,6 +293,11 @@ console.log(createFullName)
 var convert = inConverter(10);
 console.log(inConverter);*/
 
+function shoeSize(inches) {
+	return inches * 2.54;
+}
+var convert = shoeSize(10);
+console.log(convert);
 
 /*
  * #15
@@ -317,20 +322,31 @@ console.log(allCaps("Turn this sentence into all caps!"))
  * Console.log your result.
 */
 
-
+function oneCap(str) {
+	return str.charAt(0).toUpperCase() + str.slice(1);
+}
+console.log(oneCap("capitalize")); 
 
 /*
  * #17
  * Function - verifyDrinkingAge
  * Create a function named verifyDrinkingAge which takes a parameter named `age`. 
  * This function returns a Boolean value, `true` or `false`, depending on 
- * whether `age` is above or below the legal drinking age in the state of Hawaii.
  *
  * Call this function and pass in a number value.
  * Store the return value to a variable named `canDrink`. Console.log your result.
  */
 
-
+function verifyDrinkingAge(age) {
+	if (age<18) {
+		return false
+	}	
+	else { 
+		return true;
+	}
+}
+var canDrink = verifyDrinkingAge(16);
+console.log(canDrink);
 
 /**
  * #18
@@ -338,8 +354,17 @@ console.log(allCaps("Turn this sentence into all caps!"))
  * Create a function named throwParty. This function will check the value stored in the `canDrink` variable in the previous exercise. If the value is true, it will return the message "Cheee Hoo! We going to da party!" If false, then it will return the message "Meh, see you at Starbucks." Store the return value to a variable named `canParty`. Console.log your result.
  */
 
-
-
+function throwParty(canDrink) {
+	if (canDrink){
+		return "Cheee Hoo! We going to da party!";
+	}
+	else {
+		return "Meh, see you at Starbucks.";
+	}	
+	
+}
+var pCheck = throwParty(canDrink);
+console.log(pCheck);
 
 
 
