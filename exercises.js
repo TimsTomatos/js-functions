@@ -338,7 +338,7 @@ console.log(oneCap("capitalize"));
  */
 
 function verifyDrinkingAge(age) {
-	if (age<18) {
+	if (age<21) {
 		return false
 	}	
 	else { 
